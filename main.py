@@ -1,6 +1,4 @@
-import time
 import version
-import yaml
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets, uic, QtSvg
 from PyQt5.QtCore import *
@@ -8,7 +6,6 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
 import cv2
-import os
 
 
 class MainWindow(QtWidgets.QMainWindow):
